@@ -1,5 +1,5 @@
 """
-@author: Praveen Kumar
+@author: Henry D samuel
 @email: 
 @date: 
 """
@@ -53,7 +53,7 @@ class CarRacing:
 
     def racing_window(self):
         self.gameDisplay = pygame.display.set_mode((self.display_width, self.display_height))
-        pygame.display.set_caption('Car Race -- Praveen')
+        pygame.display.set_caption('Car Race -- Henry')
         self.run_car()
 
     def run_car(self):
